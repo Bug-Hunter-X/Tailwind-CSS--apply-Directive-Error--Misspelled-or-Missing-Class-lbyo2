@@ -1,0 +1,6 @@
+This bug occurs when using Tailwind CSS's `@apply` directive with a class that doesn't exist or is misspelled.  This can happen due to typos or if you refactor your CSS and forget to update all instances of the `@apply` directive.  The error usually manifests as the applied styles not appearing or a general styling issue that's hard to track down.
+
+```css
+/* Incorrect usage - 'bg-blu' is misspelled */
+.my-element { @apply bg-blu; }
+```

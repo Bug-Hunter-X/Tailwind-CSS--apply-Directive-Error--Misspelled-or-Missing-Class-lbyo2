@@ -1,0 +1,8 @@
+The solution is simple: correct the spelling of the class name within the `@apply` directive.
+
+```css
+/* Correct usage */
+.my-element { @apply bg-blue-500; }
+```
+
+Ensure that `bg-blue-500` (or your desired class) is defined in your Tailwind CSS configuration. You might need to purge your CSS or restart your development server to reflect changes in your `tailwind.config.js` file.
